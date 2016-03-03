@@ -3,3 +3,5 @@ dist: trusty
 language: node_js
 node_js:
   - "stable"
+notifications:
+  slack: nypl:vtMMCcIWfEWtF1aISHwqZMOS
