@@ -4,8 +4,9 @@
   "description": "The FAST terms (subject headings) data ingest process",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "standard && mocha test"
   },
+  "standard": { "ignore" : "test/*"},
   "repository": {
     "type": "git",
     "url": "https://github.com/nypl-registry/ingest-fast.git"
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "mocha": "^2.4.5",
-    "should": "^8.2.2"
+    "should": "^8.2.2",
+    "standard": "^6.0.7"
   }
 }
